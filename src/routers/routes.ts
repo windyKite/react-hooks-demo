@@ -1,5 +1,6 @@
 import Home from '../Home'
 import UseStateDemo from '../hooks/useState/useState'
+import UseReducerDemo from '../hooks/useReducer/useReducer'
 
 const routers = [
   {
@@ -9,6 +10,10 @@ const routers = [
   {
     path: '/useState',
     component: UseStateDemo,
+  },
+  {
+    path: '/useReducer',
+    component: UseReducerDemo,
   }
 ] 
 
