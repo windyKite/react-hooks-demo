@@ -6,6 +6,7 @@ import Books from '../components/books'
 import Movies from '../components/movies'
 import UseContextDemo from '../hooks/useContext/useContext'
 import UseEffectDemo from '../hooks/useEffect/useEffect'
+import UseMemoDemo from '../hooks/useMemo/useMemo'
 
 const routers = [
   {
@@ -39,6 +40,10 @@ const routers = [
   {
     path: '/useEffect',
     component: UseEffectDemo,
+  },
+  {
+    path: '/useMemo',
+    component: UseMemoDemo,
   }
 ] 
 
