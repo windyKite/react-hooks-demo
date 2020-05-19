@@ -7,6 +7,7 @@ import Movies from '../components/movies'
 import UseContextDemo from '../hooks/useContext/useContext'
 import UseEffectDemo from '../hooks/useEffect/useEffect'
 import UseMemoDemo from '../hooks/useMemo/useMemo'
+import UseRef from '../hooks/useRef/useRef'
 
 const routers = [
   {
@@ -44,6 +45,10 @@ const routers = [
   {
     path: '/useMemo',
     component: UseMemoDemo,
+  },
+  {
+    path: '/useRef',
+    component: UseRef,
   }
 ] 
 
