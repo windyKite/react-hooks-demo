@@ -5,6 +5,7 @@ import User from '../components/user'
 import Books from '../components/books'
 import Movies from '../components/movies'
 import UseContextDemo from '../hooks/useContext/useContext'
+import UseEffectDemo from '../hooks/useEffect/useEffect'
 
 const routers = [
   {
@@ -34,6 +35,10 @@ const routers = [
   {
     path: '/useContext',
     component: UseContextDemo,
+  },
+  {
+    path: '/useEffect',
+    component: UseEffectDemo,
   }
 ] 
 
