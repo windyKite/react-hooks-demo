@@ -4,6 +4,7 @@ import UseReducerDemo from '../hooks/useReducer/useReducer'
 import User from '../components/user'
 import Books from '../components/books'
 import Movies from '../components/movies'
+import UseContextDemo from '../hooks/useContext/useContext'
 
 const routers = [
   {
@@ -29,6 +30,10 @@ const routers = [
   {
     path: '/movies',
     component: Movies,
+  },
+  {
+    path: '/useContext',
+    component: UseContextDemo,
   }
 ] 
 
