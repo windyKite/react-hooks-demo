@@ -8,6 +8,7 @@ import UseContextDemo from '../hooks/useContext/useContext'
 import UseEffectDemo from '../hooks/useEffect/useEffect'
 import UseMemoDemo from '../hooks/useMemo/useMemo'
 import UseRef from '../hooks/useRef/useRef'
+import UseImperativeHandle from '../hooks/useImperativeHandle/useImperativeHandle'
 
 const routers = [
   {
@@ -49,6 +50,10 @@ const routers = [
   {
     path: '/useRef',
     component: UseRef,
+  },
+  {
+    path: '/useImperativeHandle',
+    component: UseImperativeHandle,
   }
 ] 
 
